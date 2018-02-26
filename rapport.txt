@@ -1,0 +1,18 @@
+Exercice 2:
+
+Utilisation de 4 automates différents :
+	Utilisateur : typiquement le conducteur de la voiture, avec deux possibilités, celle de freiner et de ne pas freiner.
+	Electrovannes : un automate qui comprend toutes les electrovannes et permettant de savoir combien sont ouvertes
+	Roue : automate représentant la roue, son blocage non déterministe en fonction du freinage, ainsi que son déblocage
+			éventuel en fonction du nombre d'électrovannes ouvertes puis son retour à un état normal d'utilisation après
+			arrêt du freinage.
+	ABS : représente le système ABS qui s'active dès que la roue est bloquée puis décide de fermer les électrovannes ou de
+			les ouvrir indépendemment les unes des autres.
+			
+T0D0: commenter les automates
+
+T0D0: 3)
+
+T0D0: 4)
+
+T0D0: 5)
