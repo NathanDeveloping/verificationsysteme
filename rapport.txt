@@ -11,8 +11,14 @@ Utilisation de 4 automates différents :
 			
 T0D0: commenter les automates
 
-T0D0: 3)
+3) Ajout d'un automate observateur (ObservateurQ3) avec deux transitions, une pour le blocage de la roue après 20s et une autre pour 30s
+   pour vérifier : E<> ObservateurQ3.Block20s
+			E<> ObservateurQ3.Block30s
 
-T0D0: 4)
+4) On ne peut pas calculer directement cette valeur mais il est possible de l'estimer. Il suffit de faire un automate
+   avec deux transition, une qui rentre dans un état quand la roue est bloquée et une autre qui en sort quand elle
+   est débloquée. Un rajoute un timer sur l'état central et on vérifie sa valeur en la bornant. (ObservateurQ4)
+   Le mieux serait de générer la trace la plus longue avec passage sur l'état où la roue se débloque mais cela ne semble
+   pas possible avec UppAal.
 
-T0D0: 5)
+5)

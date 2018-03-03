@@ -3,4 +3,9 @@
 /*
 
 */
+A<> (sas.Remplissage and porteAval.PorteAvalFermee)
+
+/*
+
+*/
 sas.Remplissage --> porteAval.PorteAvalFermee
