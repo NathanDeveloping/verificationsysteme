@@ -8,12 +8,12 @@
 /*
 
 */
-E<> (ObservateurQ4.RoueDebloquee and ObservateurQ4.t <= 20)
+E<> (ObservateurQ4.RoueDebloquee and ObservateurQ4.t <= 10)
 
 /*
 
 */
-E<> ObservateurQ5.Fin and ObservateurQ5.x>=25
+E<> ObservateurQ5a.Fin and ObservateurQ5a.x>=16
 
 /*
 
